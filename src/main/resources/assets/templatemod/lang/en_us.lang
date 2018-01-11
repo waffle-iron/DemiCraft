@@ -1,0 +1,15 @@
+item.ingot_example.name=Example Ingot
+item.nugget_example.name=Example Nugget
+
+item.axe_example.name=Example Axe
+item.hoe_example.name=Example Hoe
+item.shovel_example.name=Example Shovel
+item.sword_example.name=Example Sword
+item.pickaxe_example.name=Example Pickaxe
+
+item.helmet_example.name=Example Helmet
+item.chestplate_example.name=Example Chestplate
+item.leggings_example.name=Example Leggings
+item.boots_example.name=Example Boots
+
+tile.block_example.name=Example Block

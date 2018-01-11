@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key":
+  {
+    "N" :
+    {
+      "item": "templatemod:nugget_example"
+    }
+  },
+  "result":
+  {
+    "item": "templatemod:ingot_example"
+  }
+}
