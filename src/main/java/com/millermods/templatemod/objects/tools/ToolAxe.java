@@ -3,7 +3,7 @@ package com.millermods.templatemod.objects.tools;
 import com.google.common.collect.Sets;
 import com.millermods.templatemod.Main;
 import com.millermods.templatemod.init.ItemInit;
-import com.millermods.templatemod.util.IHasModel;
+import com.millermods.templatemod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;

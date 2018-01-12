@@ -2,7 +2,7 @@ package com.millermods.templatemod.objects.tools;
 
 import com.millermods.templatemod.Main;
 import com.millermods.templatemod.init.ItemInit;
-import com.millermods.templatemod.util.IHasModel;
+import com.millermods.templatemod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;

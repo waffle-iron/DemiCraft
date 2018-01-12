@@ -3,7 +3,7 @@ package com.millermods.templatemod.objects.blocks;
 import com.millermods.templatemod.Main;
 import com.millermods.templatemod.init.BlockInit;
 import com.millermods.templatemod.init.ItemInit;
-import com.millermods.templatemod.util.IHasModel;
+import com.millermods.templatemod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;

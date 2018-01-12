@@ -1,6 +1,7 @@
 package com.millermods.templatemod;
 
 import com.millermods.templatemod.proxy.CommonProxy;
+import com.millermods.templatemod.util.handlers.RegistryHandler;
 import com.millermods.templatemod.util.reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,6 +22,8 @@ public class Main {
 
     @EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
+
+        RegistryHandler.otherRegistries();
 
     }
 

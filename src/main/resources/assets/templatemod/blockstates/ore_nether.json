@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=example": { "model": "templatemod:ore_nether_example"}
+  }
+}

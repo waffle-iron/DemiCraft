@@ -2,8 +2,7 @@ package com.millermods.templatemod.objects.items;
 
 import com.millermods.templatemod.Main;
 import com.millermods.templatemod.init.ItemInit;
-import com.millermods.templatemod.proxy.ClientProxy;
-import com.millermods.templatemod.util.IHasModel;
+import com.millermods.templatemod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

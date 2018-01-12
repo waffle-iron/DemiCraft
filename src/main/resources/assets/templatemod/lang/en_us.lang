@@ -13,3 +13,7 @@ item.leggings_example.name=Example Leggings
 item.boots_example.name=Example Boots
 
 tile.block_example.name=Example Block
+
+tile.ore_overworld_example.name=Example Ore
+tile.ore_nether_example.name=Nether Example Ore
+tile.ore_end_example.name=End Example Ore

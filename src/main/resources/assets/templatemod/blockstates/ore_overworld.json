@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=example": { "model": "templatemod:ore_overworld_example"}
+  }
+}

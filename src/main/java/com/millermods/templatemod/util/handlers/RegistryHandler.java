@@ -2,14 +2,15 @@ package com.millermods.templatemod.util.handlers;
 
 import com.millermods.templatemod.init.BlockInit;
 import com.millermods.templatemod.init.ItemInit;
-import com.millermods.templatemod.util.IHasModel;
+import com.millermods.templatemod.util.interfaces.IHasModel;
+import com.millermods.templatemod.world.gen.WorldGenCustomOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -44,5 +45,9 @@ public class RegistryHandler {
             }
         }
 
+    }
+
+    public static void otherRegistries() {
+        GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
     }
 }
